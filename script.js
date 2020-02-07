@@ -15,6 +15,7 @@ let menos = document.getElementById('menos')
 let igual = document.getElementById('igual')
 let mult = document.getElementById('mult')
 let divid = document.getElementById('barra')
+let ponto = document.getElementById('ponto')
 
 
 
@@ -49,3 +50,4 @@ zerar.addEventListener('click', apagar)
 igual.addEventListener('click', resultado)
 mult.addEventListener('click', clicar)
 divid.addEventListener('click', clicar)
+ponto.addEventListener('click', clicar)
