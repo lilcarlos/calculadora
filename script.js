@@ -13,6 +13,8 @@ let num9 = document.getElementById('nove')
 let mais = document.getElementById('mais')
 let menos = document.getElementById('menos')
 let igual = document.getElementById('igual')
+let mult = document.getElementById('mult')
+let divid = document.getElementById('barra')
 
 
 
@@ -45,3 +47,5 @@ mais.addEventListener('click', clicar)
 menos.addEventListener('click', clicar)
 zerar.addEventListener('click', apagar)
 igual.addEventListener('click', resultado)
+mult.addEventListener('click', clicar)
+divid.addEventListener('click', clicar)
